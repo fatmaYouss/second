@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet"href="sheet.css">
+        <link rel="stylesheet"href="css/all.css">
+        <style>
+            input{padding: 3%;border-radius: 40%;background-color: rgb(255, 255, 255);margin: 3%;border:1px solid thistle;}
+            fieldset{width: 30%;background-color: rgba(247, 236, 208, 0.9);margin: 10% 50% 10%35%;border-radius:10% 0% 10% 0%;border:1px solid thistle;}
+            .ss{background-color:rgba(190, 5, 36, 0.5);text-align:  center;width: 45%;border-radius: 25%;border:1px solid thistle;}
+            div{border:1px solid rgb(45, 4, 70);display:inline-block;width: 25%;
+                border-radius: 25%;background-color: rgb(241, 248, 246);text-align: center;border:1px solid thistle;}
+                p{color: rgb(11, 93, 192);font-family: 'Times New Roman', Times, serif;}
+                h3{color: rgb(10, 102, 214);}
+                
+        </style>
+
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h3>sign up</h3>
+                <p>it's quicy and easy</p>
+                <hr>
+                <input type="text"placeholder="Firstname">
+                <input type="text"placeholder="surname"><hr>
+                <input type="email"placeholder="email address or mobile phone">
+                <input type="password"value="New password">
+                <p>Date of birth <i style="color: rgb(8, 8, 12);" class="fas fa-question-circle"></i></p>
+                <input type="date">
+                <br>
+                <label>Gender</label><br>
+                <div>
+               <span>male</span> <input type="radio"name="type"value="male">
+                </div>
+               <div>
+               <span>female</span> <input type="radio"name="type"value="female">
+               </div>
+               <div>
+                <span>custom</span><input type="radio"name="type"value="custom">
+               </div>
+               <p class="ee">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+
+                Sign Up</p>
+                <center><input class="ss" type="submit" value="sign up"></center>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
